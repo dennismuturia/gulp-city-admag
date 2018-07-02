@@ -1,0 +1,29 @@
+{
+  "name": "cityadmag",
+  "version": "1.0.0",
+  "description": "This is a city admag website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-build": "^0.5.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject": "^4.3.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-serve": "^1.4.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.5",
+    "parallax-js": "^3.1.0",
+    "pump": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-open": "^3.0.1"
+  }
+}

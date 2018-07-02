@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+}
+.done{
+    font-family: 'Open Sans', Lato Light;
+
+}
+#global-nav {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    line-height: 150px;
+    -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+}
+
+.site-title {
+    display: inline-block;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.scrolled-nav .site-title  {
+    width: 60%;
+    margin-top: -10%;
+}
+.scrolled-nav {
+    height: 70px !important;
+    line-height: 60px !important;
+    background: #000;!important;
+}
+.logo{
+    width: 125%;
+}
+@media (max-width: 1000px) {
+    .logo{
+        width: 1%;
+    }
+}
+.logo1{
+    width: 60%;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+/*Buttons*/
+.btn-rounded{
+    border-radius: 25px;
+}
+/* Body styling*/
+.headers{
+    text-align: center;
+}
+.theBackground{
+    background-image: url(../image/iconBackground.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 5%;
+}
+.lines{
+    width: 40%;
+    margin-top: -10%;
+}
+.lines1{
+    width: 40%;
+    margin-top: -10%;
+}
+.theWeddingcard{
+    background-image: url(../image/WeddingCardsandflowers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.theBlackSide{
+    background-image: url(../image/Flowers.jpg);
+    text-align: center;
+    color: #FFFFFF;
+}
+.theBlackCitySide{
+    background-image: url(../image/city.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+.others{
+    margin-top: -5%;
+}
+.theStory{
+    background-image: url(../image/AboutUs.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+.myList{
+    list-style-type: circle;
+}
+.myList li{
+    list-style: circle;
+}
+.magazine{
+    background-image: url(../image/Mediakitmockup.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.creativity{
+    background-image: url(../image/weddingsetup.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+}
+.myText{
+    text-align: center;
+}
+.myMag{
+    margin-top: -50%;
+}
+.footer{
+    background: #252222;
+    color: #FFFFFF;
+    align-content: center;
+    text-align: center;
+}
+.address{
+    text-align: left;
+}
+.myAddress{
+    display: inline;
+}
+.myAddress li{
+    display: inline;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.me{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.me1{
+    display: inline;
+    padding: 10px;
+}
+
+/*Icon*/
+.icons{
+    max-width: 30%;
+    height: auto;
+    background-size: cover;
+}
+.main{
+    font-size: 4em;
+}
+
+@media (max-width:1000px) {
+    .main{
+       font-size: 2em;
+    }
+}
+.the100{
+    height: 100vh;
+}
+@media (max-width:1000px) {
+    .the100{
+        height: 100vh;
+    }
+}
+.the1000{
+    height: 100vh;
+}
+@media (max-width: 1000px) {
+    .the1000{
+        height: 60vh;
+    }
+}
+.myStory{
+    height: 90vh;
+}
+@media (max-width: 1000px) {
+    .myStory{
+        height: 70vh;
+    }
+}
+@media (max-width: 1000px) {
+    .createe{
+        margin-left: 2%;
+    }
+}
+
+.the200{
+    height: 70vh;
+}
+@media (max-width:1000px) {
+    .the200{
+        height: 30vh;
+    }
+}
+.myFont{
+    font-size: 3em;
+}
+.create{
+    font-family: 'Kaushan Script', cursive;
+    color: #F7941D;
+}
+.myModal{
+    margin-top: 10%;
+    background-color: black;
+}
+@media(max-width: 1000px){
+    .myModal{
+        margin-top: 20%;
+    }
+}
+.icons1{
+    max-width: 60%;
+    height: auto;
+    background-size: cover;
+}
+
+@media (max-width: 1000px) {
+    icons1{
+        max-width: 30%;
+        height: auto;
+    }
+}
+.butt{
+    margin-top: 13%;
+}
+.icons2{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+@media (max-width: 1000px) {
+   .icons2{
+       width: 50%;
+   }
+
+}
+.myCarousel{
+    margin-top: -10%;
+}
+.navv{
+    box-shadow: none;
+}
+/*Button*/
+.theButton{
+    margin-top: 20%;
+}
+/*forms*/
+input, textarea{
+    color: #FFFFFF;
+}
+/*Social Icons*/
+.social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.mySocial{
+    display: inline;
+    padding: 20px;
+    margin-top: 30px;
+}
